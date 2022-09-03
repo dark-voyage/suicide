@@ -24,5 +24,5 @@ struct Args {
 
 #[tokio::main]
 async fn main() {
-    println!("{}", utils::suicide_exists());
+    show::list().await
 }
